@@ -1,0 +1,39 @@
+{
+  "name": "phobos-contracts",
+  "version": "1.0.0",
+  "description": "Sample Hardhat 3 Beta Project with mocha and ethers",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "test:solidity": "hardhat test solidity",
+    "test:mocha": "hardhat test mocha"
+  },
+  "keywords": [
+    "hardhat",
+    "ethereum",
+    "smart-contracts",
+    "solidity",
+    "hardhat3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-foundry": "^3.0.0-beta.1",
+    "@nomicfoundation/hardhat-ignition": "^0.18.0",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.18.0",
+    "@nomicfoundation/hardhat-toolbox": "^6.0.2",
+    "@nomicfoundation/ignition-core": "^0.18.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.6",
+    "chai": "^4.3.10",
+    "ethers": "^6.9.0",
+    "hardhat": "^3.0.0-beta.9",
+    "hardhat-keystore": "^1.0.0",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.3.3"
+  }
+}
